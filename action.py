@@ -23,8 +23,8 @@ def Action(data):
        text_to_speech.text_to_speech(Time)
        return Time
     elif "shutdown" in user_data:
-       text_to_speech.text_to_speech("Okay sir")
-       return "Okay sir"
+       text_to_speech.text_to_speech("Okay sir..Have a good day")
+       return "Okay sir..Have a good day"
     elif "play music" in user_data:
        webbrowser.open("https://gaana.com/")
        text_to_speech.text_to_speech("gaana.com is now ready for you")
@@ -45,6 +45,7 @@ def Action(data):
        text_to_speech.text_to_speech("I am not able to understand")
        return "I am not able to understand"
        
+
 
 
 
